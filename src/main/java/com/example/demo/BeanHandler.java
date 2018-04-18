@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -11,7 +10,7 @@ public class BeanHandler {
 	@RequestMapping("aStudent")
 	public Student aStudent() {
 		Student stu = new Student();
-		stu.setAge(16);
+		stu.setAge(17);
 		stu.setName("张三");
 		stu.setSex("男");
 		return stu;

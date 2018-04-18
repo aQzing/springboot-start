@@ -11,6 +11,6 @@ public class HelloController {
 	@RequestMapping("/hello")
 	public String sayHello() {
 		int a = 1/0;//触发全局捕捉异常 
-		return msg;
+		return msg; 
 	}
 }
